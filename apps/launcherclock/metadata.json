@@ -1,0 +1,45 @@
+{
+  "id": "launcherclock",
+  "name": "Launcher clock",
+  "version": "0.1",
+  "author": "blimmo",
+  "description": "A clock with shortcuts when unlocked, but large time when locked",
+  "readme": "README.md",
+  "icon": "icon.png",
+  "type": "clock",
+  "tags": "clock",
+  "supports": [
+    "BANGLEJS2"
+  ],
+  "storage": [
+    {
+      "name": "launcherclock.app.js",
+      "url": "app.js"
+    },
+    {
+      "name": "launcherclock.settings.js",
+      "url": "settings.js"
+    },
+    {
+      "name": "launcherclock-font.js",
+      "url": "font.js"
+    },
+    {
+      "name": "launcherclock-config.js",
+      "url": "configLoad.js"
+    },
+    {
+      "name": "launcherclock.img",
+      "url": "icon.js",
+      "evaluate": true
+    }
+  ],
+  "data": [
+    {
+      "name": "launcherclock.json"
+    }
+  ],
+  "dependencies": {
+    "weather": "app"
+  }
+}
